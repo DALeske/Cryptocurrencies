@@ -7,8 +7,11 @@ The purpose of this analysis is to explore unsupervised machine learning and how
 Four basic steps were taken in this analysis, which were: 
 
   1.Preprocessing the data for principal component analysis (PCA)
+  
   2.Reducing the number of data dimensions using PCA
+  
   3.creating clusters in the data using K-means, a method of unsupervised machine learning
+  
   4.Visualizing the data
 
 ## Results
