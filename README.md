@@ -6,10 +6,10 @@ The purpose of this analysis is to explore unsupervised machine learning and how
 ## Methods
 Four basic steps were taken in this analysis, which were: 
 
-1- Preprocessing the data for principal component analysis (PCA)
-2- Reducing the number of data dimensions using PCA
-3- creating clusters in the data using K-means, a method of unsupervised machine learning
-4- Visualizing the data
+  1-Preprocessing the data for principal component analysis (PCA)
+  2-Reducing the number of data dimensions using PCA
+  3-creating clusters in the data using K-means, a method of unsupervised machine learning
+  4-Visualizing the data
 
 ## Results
 Data columns that were not needed for analysis were removed, records with null values were dropped, and textual categorical data was transformed into numerical values.
@@ -41,7 +41,7 @@ Once the data were clean, the data were visualized. A sortable table, 3-D plot o
 ![Figure 6](/Resources/3D%20plot.png)
 
 ### Figure 7: Scatter plot of total coins mined vs total supply of coins by cluster
-![Figure 7]
+![Figure 7](/Resources/Total%20Coins%20Class%20Graph.png)
 
 ## Conclusions
 There appear to be 4 distinct clusters of data within the dataset of cryptocurrencies. Not understanding the world of cryptocurrency, I will leave the interpretation of the individual currencies within the clusters to the experts. That said, it does appear as though the cryptocurrencies within clusters 2 and 3 behave differently than those in clusters 0 and 1, which may warrant particular attention to those currencies.
